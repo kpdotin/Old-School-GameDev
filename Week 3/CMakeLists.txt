@@ -3,5 +3,7 @@ project(Week_3)
 
 set(CMAKE_CXX_STANDARD 20)
 find_package(raylib CONFIG REQUIRED)
-add_executable(Week_3 main.cpp)
+add_executable(Week_3 main.cpp
+        ResizableWindowLogic.cpp
+)
 target_link_libraries(Week_3 PRIVATE raylib)
