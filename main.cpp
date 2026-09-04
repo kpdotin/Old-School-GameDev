@@ -1,5 +1,10 @@
 //todo:
-// 1.
+// 1. clear code's vid
+// 2. hot reload implementation
+// 3. template repo for raylib
+// 4. game of life tutorial implementation
+// 5. board game repo init and work on dat
+
 #include "raylib.h"
 
 //------------------------------------------------------------------------------------
