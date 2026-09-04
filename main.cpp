@@ -1,8 +1,8 @@
 //todo:
-// 1. clear code's vid
-// 2. hot reload implementation
+// 1. game of life tutorial implementation
+// 2. some kind of a 3d platformer just to test the waters
 // 3. template repo for raylib
-// 4. game of life tutorial implementation
+// 4. hot reload implementation
 // 5. board game repo init and work on dat
 
 #include "raylib.h"
@@ -46,9 +46,6 @@ int main(void)
 
         EndDrawing();
         //----------------------------------------------------------------------------------
-        SwapScreenBuffer();
-        PollInputEvents();
-
 
     }
     // De-Initialization
